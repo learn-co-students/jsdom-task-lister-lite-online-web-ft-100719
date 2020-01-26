@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const form = document.getElementById('create-task-form');
   const taskList = document.getElementById("tasks")
-  //listen for submit event, and tel it what to do(callback function)
+  
+  //listen for submit event, and tell it what to do(callback function)
   form.addEventListener('submit', function (event) { 
     event.preventDefault()
 
@@ -22,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     form.reset()
 
     })
-    
+
     //event delegation
     taskList.addEventListener("click", function(event) {
       event.preventDefault

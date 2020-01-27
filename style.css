@@ -7,11 +7,16 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(aqua, navy);
+  color: rgb(0, 0, 99);
 }
 
-button {
-  font-size: 7px;
+[type="submit"] {
+  height: 25px;
+  font-size: 13px;
+  color: rgb(0, 0, 99);
+  border: none;
+  border-radius: 5px;
 }
 
 #main-content {
@@ -34,4 +39,20 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+  color: rgb(0, 0, 99);
+}
+
+.high {
+  color: red;
+  font-weight: bold; 
+}
+.medium {
+  color: orange;
+}
+.low {
+  color: green;
+}
+
+#done {
+  margin: 5px;
 }
